@@ -16,50 +16,50 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="OCT 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Certec Consulting Inc – Software Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Sunnyvale, CA, US</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              [Java | Docker | Kubernetes | Helm | Cloud-Native Microservices]
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="JUL 2021 – MAR 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Amazon Web Services – Software Development Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Seattle, WA, US</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              [AWS | EMR | EC2 | S3 | IAM | DynamoDB | Redis | CloudFormation | Jenkins | Java | Spring Boot]
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="DEC 2018 – JUN 2019"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Unitive Technologies Private Limited – Software Developer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Chennai, TN, India</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              [Java | Spring Boot | ReactJS | REST APIs | Web Application Development]
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="JUN 2017 – JUL 2018"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Zoho Corporation – Member Technical Staff</h3>
+            <h4 className="vertical-timeline-element-subtitle">Chennai, TN, India</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              [Java | JavaScript | HTML | CSS | Cassandra | Performance Optimization]
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
