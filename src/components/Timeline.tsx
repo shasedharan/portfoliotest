@@ -22,7 +22,7 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">Certec Consulting Inc</h3>
             <h5 className="vertical-timeline-element-subtitle role">Software Engineer</h5>
-            <h4 className="vertical-timeline-element-subtitle">Sunnyvale, CA, US</h4>
+            <h5 className="vertical-timeline-element-subtitle">Sunnyvale, CA, US</h5>
             <p>
               [Java | Docker | Kubernetes | Helm | Cloud-Native Microservices]
             </p>
@@ -35,7 +35,7 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">Amazon Web Services</h3>
             <h5 className="vertical-timeline-element-subtitle role">Software Development Engineer</h5>
-            <h4 className="vertical-timeline-element-subtitle">Seattle, WA, US</h4>
+            <h5 className="vertical-timeline-element-subtitle">Seattle, WA, US</h5>
             <p>
               [AWS | EMR | EC2 | S3 | IAM | DynamoDB | Redis | CloudFormation | Jenkins | Java | Spring Boot]
             </p>
@@ -48,7 +48,7 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">Unitive Technologies Private Limited</h3>
             <h5 className="vertical-timeline-element-subtitle role">Software Developer</h5>
-            <h4 className="vertical-timeline-element-subtitle">Chennai, TN, India</h4>
+            <h5 className="vertical-timeline-element-subtitle">Chennai, TN, India</h5>
             <p>
               [Java | Spring Boot | ReactJS | REST APIs | Web Application Development]
             </p>
@@ -59,9 +59,9 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h5 className="vertical-timeline-element-title">Member Technical Staff</h5>
-            <h3 className="vertical-timeline-element-subtitle role">Zoho Corporation</h3>
-            <h4 className="vertical-timeline-element-subtitle">Chennai, TN, India</h4>
+            <h3 className="vertical-timeline-element-title">Member Technical Staff</h3>
+            <h5 className="vertical-timeline-element-subtitle role">Zoho Corporation</h5>
+            <h5 className="vertical-timeline-element-subtitle">Chennai, TN, India</h5>
             <p>
               [Java | JavaScript | HTML | CSS | Cassandra | Performance Optimization]
             </p>
