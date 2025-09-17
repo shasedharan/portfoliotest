@@ -21,7 +21,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Certec Consulting Inc</h3>
-            <h5 className="vertical-timeline-element-title">Software Engineer</h5>
+            <h5 className="vertical-timeline-element-subtitle role">Software Engineer</h5>
             <h4 className="vertical-timeline-element-subtitle">Sunnyvale, CA, US</h4>
             <p>
               [Java | Docker | Kubernetes | Helm | Cloud-Native Microservices]
@@ -34,7 +34,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Amazon Web Services</h3>
-            <h5 className="vertical-timeline-element-title">Software Development Engineer</h5>
+            <h5 className="vertical-timeline-element-subtitle role">Software Development Engineer</h5>
             <h4 className="vertical-timeline-element-subtitle">Seattle, WA, US</h4>
             <p>
               [AWS | EMR | EC2 | S3 | IAM | DynamoDB | Redis | CloudFormation | Jenkins | Java | Spring Boot]
@@ -47,7 +47,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Unitive Technologies Private Limited</h3>
-            <h5 className="vertical-timeline-element-title">Software Developer</h5>
+            <h5 className="vertical-timeline-element-subtitle role">Software Developer</h5>
             <h4 className="vertical-timeline-element-subtitle">Chennai, TN, India</h4>
             <p>
               [Java | Spring Boot | ReactJS | REST APIs | Web Application Development]
@@ -60,7 +60,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h5 className="vertical-timeline-element-title">Member Technical Staff</h5>
-            <h3 className="vertical-timeline-element-title">Zoho Corporation</h3>
+            <h3 className="vertical-timeline-element-subtitle role">Zoho Corporation</h3>
             <h4 className="vertical-timeline-element-subtitle">Chennai, TN, India</h4>
             <p>
               [Java | JavaScript | HTML | CSS | Cassandra | Performance Optimization]
