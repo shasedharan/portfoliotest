@@ -17,52 +17,52 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="" target="_blank" rel="noreferrer"><img src={} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="" target="_blank" rel="noreferrer"><img src="" className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="" target="_blank" rel="noreferrer"><h2>Project Title</h2></a>
                 <p>Project Description</p>
             </div>
             <div className="project">
-                <a href="" target="_blank" rel="noreferrer"><img src={} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="" target="_blank" rel="noreferrer"><img src="" className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="" target="_blank" rel="noreferrer"><h2>Project Title</h2></a>
                 <p>Project Description</p>
             </div>
             <div className="project">
-                <a href="" target="_blank" rel="noreferrer"><img src={} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="" target="_blank" rel="noreferrer"><img src="" className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="" target="_blank" rel="noreferrer"><h2>Project Title</h2></a>
                 <p>Project Description</p>
             </div>
             <div className="project">
-                <a href="" target="_blank" rel="noreferrer"><img src={} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="" target="_blank" rel="noreferrer"><img src="" className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="" target="_blank" rel="noreferrer"><h2>Project Title</h2></a>
                 <p>Project Description</p>
             </div>
             <div className="project">
-                <a href="" target="_blank" rel="noreferrer"><img src={} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="" target="_blank" rel="noreferrer"><img src="" className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="" target="_blank" rel="noreferrer"><h2>Project Title</h2></a>
                 <p>Project Description</p>
             </div>
             <div className="project">
-                <a href="" target="_blank" rel="noreferrer"><img src={} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="" target="_blank" rel="noreferrer"><img src="" className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="" target="_blank" rel="noreferrer"><h2>Project Title</h2></a>
                 <p>Project Description</p>
             </div>
             <div className="project">
-                <a href="" target="_blank" rel="noreferrer"><img src={} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="" target="_blank" rel="noreferrer"><img src="" className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="" target="_blank" rel="noreferrer"><h2>Project Title</h2></a>
                 <p>Project Description</p>
             </div>
             <div className="project">
-                <a href="" target="_blank" rel="noreferrer"><img src={} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="" target="_blank" rel="noreferrer"><img src="" className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="" target="_blank" rel="noreferrer"><h2>Project Title</h2></a>
                 <p>Project Description</p>
             </div>
             <div className="project">
-                <a href="" target="_blank" rel="noreferrer"><img src={} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="" target="_blank" rel="noreferrer"><img src="" className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="" target="_blank" rel="noreferrer"><h2>Project Title</h2></a>
                 <p>Project Description</p>
             </div>
             <div className="project">
-                <a href="" target="_blank" rel="noreferrer"><img src={} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="" target="_blank" rel="noreferrer"><img src="" className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="" target="_blank" rel="noreferrer"><h2>Project Title</h2></a>
                 <p>Project Description</p>
             </div>
