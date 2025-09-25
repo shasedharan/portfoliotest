@@ -59,8 +59,8 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Member Technical Staff</h3>
-            <h5 className="vertical-timeline-element-subtitle role">Zoho Corporation</h5>
+            <h3 className="vertical-timeline-element-subtitle role">Zoho Corporation</h3>
+            <h5 className="vertical-timeline-element-title">Member Technical Staff</h5>
             <h5 className="vertical-timeline-element-subtitle">Chennai, TN, India</h5>
             <p>
               [Java | JavaScript | HTML | CSS | Cassandra | Performance Optimization]
