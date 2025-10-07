@@ -1,38 +1,39 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { ServerStackIcon, RocketLaunchIcon, CubeTransparentIcon } from "@heroicons/react/24/solid";
+import { CubeTransparentIcon, ServerStackIcon, RocketLaunchIcon } from "@heroicons/react/24/solid";
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "Java",
-    "Spring Boot",
-    "PostgreSQL",
+    "Domain-Driven Design",
+    "Event-Driven Architecture",
+    "API Design",
+    "Scalability",
+    "Resilience",
     "Redis",
-    "DynamoDB",
-    "REST APIs",
-    "Kafka",
-    "OAuth2",
-    "Microservices Architecture"
+    "Kafka"
 ];
 
 const labelsSecond = [
+    "Java",
+    "Spring Boot",
+    "PostgreSQL",
+    "DynamoDB",
+    "REST APIs",
+    "OAuth2",
+    "Microservices",
+    "AWS"
+];
+
+const labelsThird = [
     "Docker",
     "Kubernetes",
     "Helm",
     "Jenkins",
     "GitHub Actions",
-    "CloudFormation",
-    "Terraform"
-];
-
-const labelsThird = [
-    "Distributed Systems Design",
-    "Event-Driven Architecture",
-    "API Design",
-    "Asynchronous Workflows",
-    "System Performance Optimization"
+    "Terraform",
+    "CloudWatch"
 ];
 
 function Expertise() {
@@ -42,9 +43,9 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <ServerStackIcon className="w-12 h-12 text-accent expertise-icon-height"/>
-                    <h3>Cloud & Backend Engineering</h3>
-                    <p>Specialize in building cloud-native platforms and backend systems that scale seamlessly, adapt to diverse workloads, and maintain peak performance under pressure.</p>
+                    <CubeTransparentIcon className="w-12 h-12 text-accent expertise-icon-height"/>
+                    <h3>System Architecture & Design</h3>
+                    <p>Architect distributed systems that balance performance, modularity, and long-term resilience — translating complex requirements into clear, adaptable designs.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -54,9 +55,9 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <RocketLaunchIcon className="w-12 h-12 text-accent expertise-icon-height"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Engineer automated CI/CD pipelines and containerized workflows that accelerate delivery, enhance reliability, and ensure consistent deployments across environments.</p>
+                    <ServerStackIcon className="w-12 h-12 text-accent expertise-icon-height"/>
+                    <h3>Cloud & Backend Engineering</h3>
+                    <p>Engineer robust backend services and cloud-native solutions that handle demanding workloads, optimize data flow, and deliver exceptional runtime efficiency.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -66,9 +67,9 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <CubeTransparentIcon className="w-12 h-12 text-accent expertise-icon-height"/>
-                    <h3>System Design & Architecture</h3>
-                    <p>Architect robust, modular system designs that ensure scalability, fault tolerance, and secure data flows — creating resilient platforms built to evolve with business needs.</p>
+                    <RocketLaunchIcon className="w-12 h-12 text-accent expertise-icon-height"/>
+                    <h3>DevOps & Automation</h3>
+                    <p>Automate the software lifecycle with containerized infrastructure, streamlined CI/CD workflows, and intelligent monitoring that keeps systems fast and dependable.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
