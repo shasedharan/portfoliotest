@@ -2,7 +2,7 @@ import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPython } from '@fortawesome/free-brands-svg-icons';
-import { ServerStackIcon, RocketLaunch} from "@heroicons/react/24/solid";
+import { ServerStackIcon, RocketLaunch } from "@heroicons/react/24/solid";
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
