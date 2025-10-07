@@ -61,7 +61,7 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <RocketLaunch className="w-12 h-12 text-accent expertise-icon-height"/>
+                    <RocketLaunchIcon className="w-12 h-12 text-accent expertise-icon-height"/>
                     <h3>DevOps & Automation</h3>
                     <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
                     <div className="flex-chips">
