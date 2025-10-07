@@ -1,8 +1,8 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
-import { ServerIcon, RocketLaunchIcon, ShieldCheckIcon } from "@heroicons/react/24/solid";
+import { faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { ServerIcon } from "@heroicons/react/24/solid";
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
