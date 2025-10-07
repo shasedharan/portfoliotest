@@ -1,8 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPython } from '@fortawesome/free-brands-svg-icons';
-import { ServerStackIcon, RocketLaunchIcon } from "@heroicons/react/24/solid";
+import { ServerStackIcon, RocketLaunchIcon, CubeTransparentIcon } from "@heroicons/react/24/solid";
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
@@ -50,7 +49,7 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <ServerStackIcon className="w-12 h-12 text-accent expertise-icon-height"/>
-                    <h3>Full Stack Web Development</h3>
+                    <h3>Cloud & Backend Engineering</h3>
                     <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
@@ -73,8 +72,8 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
+                    <CubeTransparentIcon className="w-12 h-12 text-accent expertise-icon-height"/>
+                    <h3>System Design & Security</h3>
                     <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
