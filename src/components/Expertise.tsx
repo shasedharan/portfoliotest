@@ -6,39 +6,33 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
-    "SQL",
+    "Java",
+    "Spring Boot",
     "PostgreSQL",
-    "Postman"
+    "Redis",
+    "DynamoDB",
+    "REST APIs",
+    "Kafka",
+    "OAuth2",
+    "Microservices Architecture"
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
     "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "Kubernetes",
+    "Helm",
+    "Jenkins",
+    "GitHub Actions",
+    "CloudFormation",
+    "Terraform"
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Distributed Systems Design",
+    "Event-Driven Architecture",
+    "API Design",
+    "Asynchronous Workflows",
+    "System Performance Optimization"
 ];
 
 function Expertise() {
@@ -50,7 +44,7 @@ function Expertise() {
                 <div className="skill">
                     <ServerStackIcon className="w-12 h-12 text-accent expertise-icon-height"/>
                     <h3>Cloud & Backend Engineering</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <p>Specialize in building cloud-native platforms and backend systems that scale seamlessly, adapt to diverse workloads, and maintain peak performance under pressure.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -62,7 +56,7 @@ function Expertise() {
                 <div className="skill">
                     <RocketLaunchIcon className="w-12 h-12 text-accent expertise-icon-height"/>
                     <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <p>Engineer automated CI/CD pipelines and containerized workflows that accelerate delivery, enhance reliability, and ensure consistent deployments across environments.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -73,8 +67,8 @@ function Expertise() {
 
                 <div className="skill">
                     <CubeTransparentIcon className="w-12 h-12 text-accent expertise-icon-height"/>
-                    <h3>System Design & Security</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <h3>System Design & Architecture</h3>
+                    <p>Architect robust, modular system designs that ensure scalability, fault tolerance, and secure data flows — creating resilient platforms built to evolve with business needs.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
