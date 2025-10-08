@@ -10,9 +10,7 @@ const labelsFirst = [
     "Event-Driven Architecture",
     "API Design",
     "Scalability",
-    "Resilience",
-    "Redis",
-    "Kafka"
+    "Resilience"
 ];
 
 const labelsSecond = [
@@ -23,7 +21,9 @@ const labelsSecond = [
     "REST APIs",
     "OAuth2",
     "Microservices",
-    "AWS"
+    "AWS",
+    "Redis",
+    "Kafka"
 ];
 
 const labelsThird = [
