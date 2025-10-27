@@ -32,7 +32,7 @@ function Timeline() {
             className="vertical-timeline-element--work"
             date="JUL 2021 – MAR 2023"
             iconStyle={{ background: '#eb0560', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<img src={workexp03} />}
           >
             <h3 className="vertical-timeline-element-title">Amazon Web Services</h3>
             <h5 className="vertical-timeline-element-subtitle role">Software Development Engineer</h5>
