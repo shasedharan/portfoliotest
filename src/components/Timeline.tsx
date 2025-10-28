@@ -3,6 +3,7 @@ import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import workexp01 from '../assets/images/workexp01.png';
 import workexp03 from '../assets/images/workexp03.png';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
@@ -58,7 +59,7 @@ function Timeline() {
             className="vertical-timeline-element--work"
             date="JUN 2017 – JUL 2018"
             iconStyle={{ background: '#eb0560', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<img src={workexp01} alt="Company Logo" className="workexp01"/>}
           >
             <h3 className="vertical-timeline-element-title">Zoho Corporation</h3>
             <h5 className="vertical-timeline-element-subtitle role">Member Technical Staff</h5>
