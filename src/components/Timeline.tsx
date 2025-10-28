@@ -21,7 +21,7 @@ function Timeline() {
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="OCT 2023"
-            iconStyle={{ background: '#eb0560', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: 'rgb(135, 216, 212)', color: 'rgb(39, 40, 34)' }}
             icon={<img src={workexp04} alt="Company Logo" className="workexp04"/>}
           >
             <h3 className="vertical-timeline-element-title">Certec Consulting Inc</h3>
@@ -34,7 +34,7 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="JUL 2021 – MAR 2023"
-            iconStyle={{ background: '#eb0560', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: 'rgb(135, 216, 212)', color: 'rgb(39, 40, 34)' }}
             icon={<img src={workexp03} alt="Company Logo" className="workexp03"/>}
           >
             <h3 className="vertical-timeline-element-title">Amazon Web Services</h3>
@@ -47,7 +47,7 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="DEC 2018 – JUN 2019"
-            iconStyle={{ background: '#eb0560', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: 'rgb(135, 216, 212)', color: 'rgb(39, 40, 34)' }}
             icon={<img src={workexp02} alt="Company Logo" className="workexp02"/>}
           >
             <h3 className="vertical-timeline-element-title">Unitive Technologies Private Limited</h3>
@@ -60,7 +60,7 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="JUN 2017 – JUL 2018"
-            iconStyle={{ background: '#eb0560', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: 'rgb(135, 216, 212)', color: 'rgb(39, 40, 34)' }}
             icon={<img src={workexp01} alt="Company Logo" className="workexp01"/>}
           >
             <h3 className="vertical-timeline-element-title">Zoho Corporation</h3>
