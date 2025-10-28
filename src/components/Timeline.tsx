@@ -6,6 +6,7 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import workexp01 from '../assets/images/workexp01.png';
 import workexp02 from '../assets/images/workexp02.png';
 import workexp03 from '../assets/images/workexp03.png';
+import workexp04 from '../assets/images/workexp04.png';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
 
@@ -21,7 +22,7 @@ function Timeline() {
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="OCT 2023"
             iconStyle={{ background: '#eb0560', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<img src={workexp04} alt="Company Logo" className="workexp04"/>}
           >
             <h3 className="vertical-timeline-element-title">Certec Consulting Inc</h3>
             <h5 className="vertical-timeline-element-subtitle role">Software Engineer</h5>
