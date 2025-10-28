@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import workexp01 from '../assets/images/workexp01.png';
+import workexp02 from '../assets/images/workexp02.png';
 import workexp03 from '../assets/images/workexp03.png';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
@@ -46,7 +47,7 @@ function Timeline() {
             className="vertical-timeline-element--work"
             date="DEC 2018 – JUN 2019"
             iconStyle={{ background: '#eb0560', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<img src={workexp02} alt="Company Logo" className="workexp02"/>}
           >
             <h3 className="vertical-timeline-element-title">Unitive Technologies Private Limited</h3>
             <h5 className="vertical-timeline-element-subtitle role">Software Developer</h5>
